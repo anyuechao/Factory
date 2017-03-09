@@ -38,9 +38,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     BaseModel *model = self.dataArray[indexPath.row];
-//    BaseCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithFormat:@"%@Cell",[NSString stringWithUTF8String:object_getClassName(model)]]];
     BaseCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName(model)]];
-//    BaseCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName(model)] forIndexPath:indexPath];
     
     if (nil == cell){
         cell = [BaseCell cellWithModel:model];
