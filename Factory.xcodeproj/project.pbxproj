@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		25652FA91E70DE3500B9673E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FA81E70DE3500B9673E /* main.m */; };
 		25652FAC1E70DE3500B9673E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FAB1E70DE3500B9673E /* AppDelegate.m */; };
-		25652FAF1E70DE3600B9673E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FAE1E70DE3600B9673E /* ViewController.m */; };
 		25652FB21E70DE3600B9673E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25652FB01E70DE3600B9673E /* Main.storyboard */; };
 		25652FB41E70DE3600B9673E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25652FB31E70DE3600B9673E /* Assets.xcassets */; };
 		25652FB71E70DE3600B9673E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25652FB51E70DE3600B9673E /* LaunchScreen.storyboard */; };
 		25652FC21E70DE3600B9673E /* FactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FC11E70DE3600B9673E /* FactoryTests.m */; };
 		25652FCD1E70DE3600B9673E /* FactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FCC1E70DE3600B9673E /* FactoryUITests.m */; };
+		25652FDC1E70DE6900B9673E /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FDB1E70DE6900B9673E /* RootTableViewController.m */; };
+		25652FDF1E70DE8700B9673E /* YCWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FDE1E70DE8700B9673E /* YCWebImage.m */; };
+		25652FE11E70DF2600B9673E /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25652FE01E70DF2600B9673E /* data.plist */; };
+		25652FE61E70DFF000B9673E /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FE51E70DFF000B9673E /* BaseModel.m */; };
+		25652FE91E70E00200B9673E /* OneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FE81E70E00200B9673E /* OneModel.m */; };
+		25652FEC1E70E00A00B9673E /* TwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FEB1E70E00A00B9673E /* TwoModel.m */; };
+		25652FF21E70E02700B9673E /* ThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FF11E70E02700B9673E /* ThreeModel.m */; };
+		25652FF51E70E10F00B9673E /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FF41E70E10F00B9673E /* BaseCell.m */; };
+		25652FF81E70E12600B9673E /* OneModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FF71E70E12600B9673E /* OneModelCell.m */; };
+		25652FFB1E70E13900B9673E /* TwoModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FFA1E70E13900B9673E /* TwoModelCell.m */; };
+		25652FFE1E70E14300B9673E /* ThreeModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25652FFD1E70E14300B9673E /* ThreeModelCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		25652FA81E70DE3500B9673E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25652FAA1E70DE3500B9673E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25652FAB1E70DE3500B9673E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25652FAD1E70DE3500B9673E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25652FAE1E70DE3600B9673E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25652FB11E70DE3600B9673E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25652FB31E70DE3600B9673E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25652FB61E70DE3600B9673E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,28 @@
 		25652FC81E70DE3600B9673E /* FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25652FCC1E70DE3600B9673E /* FactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryUITests.m; sourceTree = "<group>"; };
 		25652FCE1E70DE3600B9673E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25652FDA1E70DE6900B9673E /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		25652FDB1E70DE6900B9673E /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		25652FDD1E70DE8700B9673E /* YCWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCWebImage.h; sourceTree = "<group>"; };
+		25652FDE1E70DE8700B9673E /* YCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCWebImage.m; sourceTree = "<group>"; };
+		25652FE01E70DF2600B9673E /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		25652FE41E70DFF000B9673E /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		25652FE51E70DFF000B9673E /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		25652FE71E70E00200B9673E /* OneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneModel.h; sourceTree = "<group>"; };
+		25652FE81E70E00200B9673E /* OneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneModel.m; sourceTree = "<group>"; };
+		25652FEA1E70E00A00B9673E /* TwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoModel.h; sourceTree = "<group>"; };
+		25652FEB1E70E00A00B9673E /* TwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoModel.m; sourceTree = "<group>"; };
+		25652FF01E70E02700B9673E /* ThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeModel.h; sourceTree = "<group>"; };
+		25652FF11E70E02700B9673E /* ThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeModel.m; sourceTree = "<group>"; };
+		25652FF31E70E10F00B9673E /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		25652FF41E70E10F00B9673E /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		25652FF61E70E12600B9673E /* OneModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneModelCell.h; sourceTree = "<group>"; };
+		25652FF71E70E12600B9673E /* OneModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneModelCell.m; sourceTree = "<group>"; };
+		25652FF91E70E13900B9673E /* TwoModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoModelCell.h; sourceTree = "<group>"; };
+		25652FFA1E70E13900B9673E /* TwoModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoModelCell.m; sourceTree = "<group>"; };
+		25652FFC1E70E14300B9673E /* ThreeModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeModelCell.h; sourceTree = "<group>"; };
+		25652FFD1E70E14300B9673E /* ThreeModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeModelCell.m; sourceTree = "<group>"; };
+		25652FFF1E70EB7C00B9673E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +133,10 @@
 			children = (
 				25652FAA1E70DE3500B9673E /* AppDelegate.h */,
 				25652FAB1E70DE3500B9673E /* AppDelegate.m */,
-				25652FAD1E70DE3500B9673E /* ViewController.h */,
-				25652FAE1E70DE3600B9673E /* ViewController.m */,
+				25652FDA1E70DE6900B9673E /* RootTableViewController.h */,
+				25652FDB1E70DE6900B9673E /* RootTableViewController.m */,
+				25652FE21E70DFE600B9673E /* CellMode */,
+				25652FE31E70DFE600B9673E /* Cell */,
 				25652FB01E70DE3600B9673E /* Main.storyboard */,
 				25652FB31E70DE3600B9673E /* Assets.xcassets */,
 				25652FB51E70DE3600B9673E /* LaunchScreen.storyboard */,
@@ -117,7 +149,11 @@
 		25652FA71E70DE3500B9673E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25652FE01E70DF2600B9673E /* data.plist */,
 				25652FA81E70DE3500B9673E /* main.m */,
+				25652FDD1E70DE8700B9673E /* YCWebImage.h */,
+				25652FDE1E70DE8700B9673E /* YCWebImage.m */,
+				25652FFF1E70EB7C00B9673E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +174,36 @@
 				25652FCE1E70DE3600B9673E /* Info.plist */,
 			);
 			path = FactoryUITests;
+			sourceTree = "<group>";
+		};
+		25652FE21E70DFE600B9673E /* CellMode */ = {
+			isa = PBXGroup;
+			children = (
+				25652FE41E70DFF000B9673E /* BaseModel.h */,
+				25652FE51E70DFF000B9673E /* BaseModel.m */,
+				25652FE71E70E00200B9673E /* OneModel.h */,
+				25652FE81E70E00200B9673E /* OneModel.m */,
+				25652FEA1E70E00A00B9673E /* TwoModel.h */,
+				25652FEB1E70E00A00B9673E /* TwoModel.m */,
+				25652FF01E70E02700B9673E /* ThreeModel.h */,
+				25652FF11E70E02700B9673E /* ThreeModel.m */,
+			);
+			path = CellMode;
+			sourceTree = "<group>";
+		};
+		25652FE31E70DFE600B9673E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				25652FF31E70E10F00B9673E /* BaseCell.h */,
+				25652FF41E70E10F00B9673E /* BaseCell.m */,
+				25652FF61E70E12600B9673E /* OneModelCell.h */,
+				25652FF71E70E12600B9673E /* OneModelCell.m */,
+				25652FF91E70E13900B9673E /* TwoModelCell.h */,
+				25652FFA1E70E13900B9673E /* TwoModelCell.m */,
+				25652FFC1E70E14300B9673E /* ThreeModelCell.h */,
+				25652FFD1E70E14300B9673E /* ThreeModelCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +273,7 @@
 				TargetAttributes = {
 					25652FA31E70DE3500B9673E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D6NH4X2WX7;
 						ProvisioningStyle = Automatic;
 					};
 					25652FBC1E70DE3600B9673E = {
@@ -248,6 +315,7 @@
 			files = (
 				25652FB71E70DE3600B9673E /* LaunchScreen.storyboard in Resources */,
 				25652FB41E70DE3600B9673E /* Assets.xcassets in Resources */,
+				25652FE11E70DF2600B9673E /* data.plist in Resources */,
 				25652FB21E70DE3600B9673E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +341,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25652FAF1E70DE3600B9673E /* ViewController.m in Sources */,
+				25652FF21E70E02700B9673E /* ThreeModel.m in Sources */,
+				25652FE91E70E00200B9673E /* OneModel.m in Sources */,
+				25652FEC1E70E00A00B9673E /* TwoModel.m in Sources */,
+				25652FDF1E70DE8700B9673E /* YCWebImage.m in Sources */,
+				25652FFE1E70E14300B9673E /* ThreeModelCell.m in Sources */,
+				25652FDC1E70DE6900B9673E /* RootTableViewController.m in Sources */,
+				25652FF51E70E10F00B9673E /* BaseCell.m in Sources */,
+				25652FF81E70E12600B9673E /* OneModelCell.m in Sources */,
 				25652FAC1E70DE3500B9673E /* AppDelegate.m in Sources */,
+				25652FE61E70DFF000B9673E /* BaseModel.m in Sources */,
+				25652FFB1E70E13900B9673E /* TwoModelCell.m in Sources */,
 				25652FA91E70DE3500B9673E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +501,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D6NH4X2WX7;
+				GCC_PREFIX_HEADER = Factory/PrefixHeader.pch;
 				INFOPLIST_FILE = Factory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DJnet.Factory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +515,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D6NH4X2WX7;
+				GCC_PREFIX_HEADER = Factory/PrefixHeader.pch;
 				INFOPLIST_FILE = Factory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DJnet.Factory;
 				PRODUCT_NAME = "$(TARGET_NAME)";

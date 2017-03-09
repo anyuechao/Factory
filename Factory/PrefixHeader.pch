@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  Factory
+//
+//  Created by DJnet on 2017/3/9.
+//  Copyright © 2017年 YueChao An. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "YCWebImage.h"
+
+#endif /* PrefixHeader_pch */
